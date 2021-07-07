@@ -17,6 +17,9 @@
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
 
+/*-------
+メッセージの色
+---------*/
  .error {
    color: red;
  }
@@ -24,3 +27,14 @@
  .notice {
   color: green;
  }
+
+/*-------
+いいねの色
+---------*/
+.like-btn {
+ color: red;
+}
+
+.unlike-btn {
+ color: blue;
+}
