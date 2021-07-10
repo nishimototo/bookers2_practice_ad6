@@ -24,7 +24,9 @@
             <td>
               <%= @book.body %>
             </td>
-            <%= render "favorites/favorite", book: @book %>
+            <td class="favorite-btn">
+              <%= render "favorites/favorite", book: @book %>
+            </td>
             <td>
               コメント数：<%= @comments.count %>
             </td>
